@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'example.png',
-    title: 'Weather App',
+    title: 'Weather Apps',
     info: '',
     info2: '',
     url: '',
