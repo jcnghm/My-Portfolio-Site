@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
@@ -18,40 +18,40 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'self.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: "My name is Josh and I am a full-stack developer with hands on experience working with several technologies. I've built applications using Python, Flask, React, Node.js, HTML5, CSS3, Javascript, and Typescript. I've integrated databases using PostgreSQL, ElephantSQL, and DBeaver.",
+  paragraphTwo: "I'm an adaptive, quick thinking professional with a broad, flexible skillset and management and leadership experience accross a wide range of fields.",
+  paragraphThree: "I also have development experience using Python data management packages such as NumPy, Pandas, and MatPlotLib. Using these tools I built applications to analyze complex datasets.",
+  resume: 'https://docs.google.com/document/d/1ZzxtS5FlmcGEw7-f7Lhn7ZZR_k5XZ-ouOup6WNI1cAE/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'capstone.png',
+    title: 'The Dugout',
+    info: 'The Dugout is a full stack interactive application for baseball reference and statistics.  Search for players and view their stats, discuss with the community.',
+    info2: 'Designed using React, Typescript, Redux, using Google Firebase.',
+    url: 'https://github.com/jcnghm/The-Dugout-App',
+    repo: 'https://github.com/jcnghm/The-Dugout-App', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'example.png',
-    title: 'Weather Apps',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'example.jpg',
     title: 'Weather App',
-    info: 'I created a weather app using openweather and their api.',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'Created a weather application/desktop widget using OpenWeather and their api.',
+    info2: "Built using JavaScript with a simple and minimalist design.  Easily access any city's weather information from your desktop.",
+    url: 'https://github.com/jcnghm/weather_app',
+    repo: 'https://github.com/jcnghm/weather_app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'example1.jpg',
-    title: 'DC Comics React Template',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'example4.png',
+    title: 'Comics Hero Inventory',
+    info: 'Inventory application engineered using React, Typescript, Redux, Flask, PostgreSQL.',
+    info2: 'Deployed using Google Firebase with full CRUD functionality.',
+    url: 'https://dc-comics-react-template.firebaseapp.com',
+    repo: 'https://github.com/jcnghm/DC-Comics-React-Template', // if no repo, the button will not show up
   },
 ];
 
@@ -59,31 +59,31 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'jcnghmps@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/jcnghm',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/joshua-cunningham-wa',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jcnghm',
     },
   ],
 };
