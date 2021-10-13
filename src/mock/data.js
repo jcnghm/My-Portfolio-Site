@@ -17,9 +17,9 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'self.jpg',
+  img: 'self2.jpg',
   paragraphOne: "My name is Josh and I am a full-stack developer with hands on experience working with several technologies. I've built applications using Python, Flask, React, Node.js, HTML5, CSS3, Javascript, and Typescript. I've integrated databases using PostgreSQL, ElephantSQL, and DBeaver.",
-  paragraphTwo: "I'm an adaptive, quick thinking professional with a broad, flexible skillset and management and leadership experience accross a wide range of fields.",
+  paragraphTwo: "I'm an adaptive, quick thinking professional with a broad, flexible skillset and management and leadership experience across a wide range of fields.",
   paragraphThree: "I also have development experience using Python data management packages such as NumPy, Pandas, and MatPlotLib. Using these tools I built applications to analyze complex datasets.",
   resume: 'https://docs.google.com/document/d/1ZzxtS5FlmcGEw7-f7Lhn7ZZR_k5XZ-ouOup6WNI1cAE/edit?usp=sharing', // if no resume, the button will not show up
 };
@@ -28,10 +28,10 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'capstone.png',
+    img: 'capstone1.png',
     title: 'The Dugout',
-    info: 'The Dugout is a full stack interactive application for baseball reference and statistics.  Search for players and view their stats, discuss with the community.',
-    info2: 'Designed using React, Typescript, Redux, using Google Firebase.',
+    info: 'The Dugout is a full stack interactive application for baseball reference and statistics.  Search for players and view their stats, manage your fantasy team.',
+    info2: 'Designed using React, Typescript, Redux, Python, Flask, and Google Firebase.',
     url: 'https://github.com/jcnghm/The-Dugout-App',
     repo: 'https://github.com/jcnghm/The-Dugout-App', // if no repo, the button will not show up
   },
