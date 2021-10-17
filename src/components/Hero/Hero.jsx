@@ -29,8 +29,13 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Joshua Cunningham'}</span>
             <br />
-            {subtitle || "I'm a Full-Stack Software Developer"}
+            {subtitle || "Software Developer / Data Analyst"}
           </h1>
+          <p>I'm a <b>Full Stack Developer</b>🧔 from <b>California</b>🌴, living in <b>Washington</b>🌲.
+          </p>
+          <p>With a background in software development and leadership, 
+            I help companies create teams that work seamlessly together.</p>
+          <p><b>Keep scrolling to find out more...</b></p>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
