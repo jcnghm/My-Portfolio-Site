@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'self2.jpg',
-  paragraphOne: "My name is Josh and I am a developer with hands on experience working with several technologies. I've built applications using Python, Flask, React, Node.js, HTML5, CSS3, Javascript, and Typescript. I've integrated databases using PostgreSQL, ElephantSQL, and DBeaver.",
-  paragraphTwo: "I also have development experience using Python data management packages such as NumPy, Pandas, and MatPlotLib. Using these skills I build tools and applications to analyze complex datasets. I'm an adaptive, quick thinking professional with a broad, flexible skillset and management and leadership experience across a wide range of fields. ",
+  paragraphOne: "My name is Josh and I am a developer with hands on experience working with several technologies. I've built applications using Python, Flask, React, Node.js, HTML5, CSS3, Javascript, Typescript, and Ruby on Rails. I've integrated databases using PostgreSQL, ElephantSQL, and DBeaver. I'm an adaptive, quick thinking professional with a broad, flexible skillset and management and leadership experience across a wide range of fields. ",
+  paragraphTwo: "I also have development experience using Python data management packages such as NumPy, Pandas, and MatPlotLib. Using these skills I build tools and applications to analyze complex datasets.",
   paragraphThree: "I'm an avid hiker🌄 and spend way too much time watching baseball⚾️. I love to be outdoors and travel✈️ when I'm not making cool stuff with code💻. Currently I live in Kennewick, WA with my lovely fiancée and our two dogs Duke🐺 and Pancake🐶.",
   resume: 'https://docs.google.com/document/d/1ZzxtS5FlmcGEw7-f7Lhn7ZZR_k5XZ-ouOup6WNI1cAE/edit?usp=sharing', // if no resume, the button will not show up
 };
@@ -66,7 +66,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'example7.PNG',
     title: 'Spotify Player',
-    info: 'A Spotify player using Spotify developer API.',
+    info: 'A Spotify player using the Spotify developer API.',
     info2: 'Built using HTML, CSS, JavaScript to play movie soundtracks from Spotify.',
     url: 'https://github.com/jcnghm/Spotify-API-JavaScript',
     repo: 'https://github.com/jcnghm/Spotify-API-JavaScript', // if no repo, the button will not show up
