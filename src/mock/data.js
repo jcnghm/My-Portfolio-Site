@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'The Dugout',
     info: 'The Dugout is a full stack interactive application for baseball reference and statistics.  Search for players and view their stats, manage your fantasy team.',
     info2: 'Designed using React, Typescript, Redux, Python, Flask, and Google Firebase.',
-    url: 'https://the-dugout-4d519.web.app/',
+    url: 'https://github.com/jcnghm/The-Dugout-App',
     repo: 'https://github.com/jcnghm/The-Dugout-App', // if no repo, the button will not show up
   },
   {
@@ -50,7 +50,7 @@ export const projectsData = [
     title: 'Hero Inventory',
     info: 'Inventory application engineered using React, Typescript, Redux, Flask, PostgreSQL.',
     info2: 'Deployed using Google Firebase with full CRUD functionality.',
-    url: 'https://dc-comics-react-template.firebaseapp.com',
+    url: 'https://github.com/jcnghm/DC-Comics-React-Template',
     repo: 'https://github.com/jcnghm/DC-Comics-React-Template', // if no repo, the button will not show up
   },
   {
