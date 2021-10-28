@@ -39,7 +39,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'example8.PNG',
     title: 'Random Character Generator',
-    info: 'RPG text based game with a random character generator.',
+    info: 'Text based RPG game with a random character generator.',
     info2: "Built using Python, Flask, HTML, CSS, and JavaScript with a PostgreSQL database.",
     url: 'https://github.com/jcnghm/Text-RPG',
     repo: 'https://github.com/jcnghm/Text-RPG', // if no repo, the button will not show up
