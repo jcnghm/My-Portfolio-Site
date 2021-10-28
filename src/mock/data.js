@@ -37,12 +37,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'example.png',
-    title: 'Weather App',
-    info: 'Weather application/desktop widget using OpenWeather API.',
-    info2: "Built using HTML, CSS, and JavaScript with a minimalist design.  Easily access any city's weather information from your desktop.",
-    url: 'https://github.com/jcnghm/weather_app',
-    repo: 'https://github.com/jcnghm/weather_app', // if no repo, the button will not show up
+    img: 'example8.PNG',
+    title: 'Random Character Generator',
+    info: 'RPG text based game with a random character generator.',
+    info2: "Built using Python, Flask, HTML, CSS, and JavaScript with a PostgreSQL database.",
+    url: 'https://github.com/jcnghm/Text-RPG',
+    repo: 'https://github.com/jcnghm/Text-RPG', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -70,6 +70,15 @@ export const projectsData = [
     info2: 'Built using HTML, CSS, JavaScript to play movie soundtracks from Spotify.',
     url: 'https://github.com/jcnghm/Spotify-API-JavaScript',
     repo: 'https://github.com/jcnghm/Spotify-API-JavaScript', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'example.png',
+    title: 'Weather App',
+    info: 'Weather application/desktop widget using OpenWeather API.',
+    info2: "Built using HTML, CSS, and JavaScript with a minimalist design.  Easily access any city's weather information from your desktop.",
+    url: 'https://github.com/jcnghm/weather_app',
+    repo: 'https://github.com/jcnghm/weather_app', // if no repo, the button will not show up
   },
   
 ];
