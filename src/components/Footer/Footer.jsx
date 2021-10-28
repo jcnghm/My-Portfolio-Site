@@ -45,6 +45,7 @@ const Footer = () => {
         </p> */}
 
         {/* {isEnabled && <GithubButtons />} */}
+        <a href="https://www.codewars.com/users/jcnghm"><img src="https://www.codewars.com/users/jcnghm/badges/large" alt="codewars"/></a>
       </Container>
     </footer>
   );
